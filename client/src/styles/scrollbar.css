@@ -1,0 +1,29 @@
+/* Custom scrollbar for web dev side */
+.webdev-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.webdev-scroll::-webkit-scrollbar-track {
+  background: #111827; /* dark gray */
+}
+.webdev-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00f5d4, #00bbf9); /* neon blue/green */
+  border-radius: 9999px;
+}
+.webdev-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #00bbf9, #00f5d4);
+}
+
+/* Custom scrollbar for video side */
+.video-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.video-scroll::-webkit-scrollbar-track {
+  background: #000; /* pure black */
+}
+.video-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff4d6d, #c9184a); /* cinematic red/pink */
+  border-radius: 9999px;
+}
+.video-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #c9184a, #ff4d6d);
+}

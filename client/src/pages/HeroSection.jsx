@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaCode, FaPlay } from "react-icons/fa";
-import devBg from "../assets/dev-bg.jpg"; // Replace with your own dev background image
+import devBg from "../assets/dev-bg.jpg"; 
 import videoBg from "../assets/video-bg.mp4"
 import ScrollIndicator from "./ScrollIndicator";
 import WaveDivider from "./WaveDivider";
@@ -27,8 +27,9 @@ export default function HeroSection() {
           <p className="mt-4 text-lg text-gray-300 text-center max-w-md">
             I build fast, modern, and scalable websites.
           </p>
-          <button className="mt-6 px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg transition">
-            View Web Projects
+          <button  className="mt-6 px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg transition">
+            <a href="#projects">  View Web Projects</a>
+          
           </button>
         </div>
       </motion.div>
@@ -66,7 +67,8 @@ export default function HeroSection() {
             I craft cinematic stories from raw footage.
           </p>
           <button className="mt-6 px-6 py-3 bg-white/20 hover:bg-white/40 rounded-lg transition">
-            Watch My Reel
+          <a href="#projects"> Watch My Reel</a>
+           
           </button>
         </div>
       </motion.div>
